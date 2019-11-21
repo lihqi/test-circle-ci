@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/test-circle-ci/static/css/main.b100e6da.chunk.css",
+    "main.js": "/test-circle-ci/static/js/main.b20edaed.chunk.js",
+    "main.js.map": "/test-circle-ci/static/js/main.b20edaed.chunk.js.map",
+    "runtime-main.js": "/test-circle-ci/static/js/runtime-main.9d165d48.js",
+    "runtime-main.js.map": "/test-circle-ci/static/js/runtime-main.9d165d48.js.map",
+    "static/js/2.fd876a04.chunk.js": "/test-circle-ci/static/js/2.fd876a04.chunk.js",
+    "static/js/2.fd876a04.chunk.js.map": "/test-circle-ci/static/js/2.fd876a04.chunk.js.map",
+    "index.html": "/test-circle-ci/index.html",
+    "precache-manifest.657052120bccc00d3c8bebadb7cf98f7.js": "/test-circle-ci/precache-manifest.657052120bccc00d3c8bebadb7cf98f7.js",
+    "service-worker.js": "/test-circle-ci/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/test-circle-ci/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.svg": "/test-circle-ci/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9d165d48.js",
+    "static/js/2.fd876a04.chunk.js",
+    "static/css/main.b100e6da.chunk.css",
+    "static/js/main.b20edaed.chunk.js"
+  ]
+}
