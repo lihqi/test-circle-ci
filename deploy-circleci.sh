@@ -1,4 +1,3 @@
-git pull
 yarn build
-git checkout gh-pages
-git push
+yarn add --dev gh-pages
+yarn run deploy
