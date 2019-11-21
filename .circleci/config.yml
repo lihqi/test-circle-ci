@@ -43,4 +43,9 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-      - run: sh deploy-circleci.sh
+      # - run: sh deploy-circleci.sh
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GH_TOKEN
+  local-dist: ./build/
