@@ -25,7 +25,7 @@ jobs:
       # connect to github by ssh
       - add_ssh_keys:
           fingerprints:
-            - "b4:ba:c9:b3:36:79:fb:d1:cc:58:6e:fa:55:6b:f7:35"
+            - "09:89:a3:f5:71:78:44:37:09:da:be:2f:aa:b8:e1:b0"
 
       - checkout
 
@@ -42,10 +42,4 @@ jobs:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-
-      # - run: sh deploy-circleci.sh
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GH_TOKEN
-  local-dist: ./build/
+      - run: sh deploy-circleci.sh
