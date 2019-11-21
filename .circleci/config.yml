@@ -42,4 +42,4 @@ jobs:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-      - run: ./scripts/circleci/deploy-circleci.sh
+      - run: sh ./scripts/circleci/deploy-circleci.sh
